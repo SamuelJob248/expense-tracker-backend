@@ -1,0 +1,19 @@
+# Ignore the entire frontend directory for the backend repo
+frontend/
+
+# Ignore the entire virtual environment directory
+venv/
+
+# Standard Python/Django ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Other common ignores (optional but recommended)
+.env*
+db.sqlite3*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
