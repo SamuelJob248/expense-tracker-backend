@@ -6,8 +6,7 @@ from .serializers import ExpenseSerializer
 from django.db.models import Sum
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from decimal import Decimal # Import Decimal for handling potential None aggregate
-
+from decimal import Decimal 
 
 
 class ExpenseViewSet(viewsets.ModelViewSet):
